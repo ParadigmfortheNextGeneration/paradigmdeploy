@@ -384,8 +384,9 @@ h3.post-title {
 }
 
 #logo {
-  float:left;
-  margin-left:10px;
+  position: absolute;
+  left:-60px;
+  margin-left:50%;
 }
 
 .panel h1,
