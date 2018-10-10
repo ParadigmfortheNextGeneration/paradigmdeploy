@@ -379,7 +379,8 @@ h1.page-title a:hover,
 h3.post-title {
   margin-bottom:10px;
 }
-.content h3.post-title a {
+.content h2.post-title a,
+.content h3.post-title a{
     color:#000;
 }
 
