@@ -230,14 +230,6 @@ blockquote {
   text-align: left !important;
 }
 
-blockquote em {
-  font-style:normal;
-  font-weight: bold;
-  display:block;
-  font-size:.8em;
-  color:#1e88e5;
-  font-family: "robotoblack",sans-serif !important;
-}
 
 audio,
 canvas,
@@ -626,20 +618,52 @@ ul.menu-large li a {
 }
 #sidr_menu li {
   list-style: none;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  line-height: 1.2em;
+}
+#sidr_menu ul {
+}
+#sidr_menu ul ul {
+  margin-bottom: 15px;
+  margin-top:0;
+}
+
+#sidr_menu ul ul ul {
+  margin-top: 0px;
+}
+
+#sidr_menu ul ul li {
+  margin-bottom:5px;
+  margin-top: 6px;
+}
+
+#sidr_menu ul ul ul li {
+  margin-bottom: 2px;
+  margin-top: 0px;
+  line-height: 1em;
 }
 
 #sidr_menu li a {
   position: relative;
-  padding:10px;
-  color:#1e88e5;
+  color:#fff;
   font-family: robotoblack;
   text-transform: uppercase;
   font-weight: bold;
+  
 }
 #sidr_menu ul ul li a {
-  font-size:14px;
-  padding-left: 20px;
+  font-size:16px;
+  text-transform: none;
+  color: #ddd;
 }
+#sidr_menu ul ul ul li a {
+  font-family: arial, sans-serif;
+  font-size:14px;
+  font-weight: normal;
+  color: #ccc;
+}
+
 #sidr_menu li a .fa {
   position:absolute;
   left:0;
@@ -672,7 +696,7 @@ ul.menu-large li a {
 }
 
 .menu-inner {
-  padding:0px 20px;
+  padding:20px;
 }
 .social-inner {
   padding:20px;
@@ -1056,7 +1080,12 @@ ul.tag-list {
 }
 
 @media screen and (max-width: 560px) {
-  .donate {
+  .call-to-action.donate {
+    padding-left:10px;
+    padding-right:10px;
+    margin: 40px 20px 0 0;
+  }
+  .donate .fa {
     display:none;
   }
   #logo {
