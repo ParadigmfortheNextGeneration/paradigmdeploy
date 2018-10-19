@@ -24,7 +24,7 @@ var initializeEvents = function() {
     $('.share_wrap_outer').hide();
   }
   //share_wrap_outer
-  $("h1.page-title").fitText(1.3, { minFontSize: '20px', maxFontSize: '80px' });
+  //$("h1.page-title").fitText(1.3, { minFontSize: '20px', maxFontSize: '80px' });
   //$(".page-content h2").fitText(1.5, { minFontSize: '20px', maxFontSize: '60px' });
   $('select').material_select();
   $('.obscure').each(function() {
