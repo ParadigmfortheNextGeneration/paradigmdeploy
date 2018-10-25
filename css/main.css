@@ -358,9 +358,6 @@ h1.page-title a:hover,
 .page-content h1 {
   
 }
-/*.page-content h2 {
-  font-size:1.8em;
-}*/
 
 
 h3.post-title {
@@ -378,10 +375,7 @@ h3.post-title {
 }
 
 
-/*.panel a strong {
-  text-transform: uppercase;
-  font-family: robotoblack;
-}*/
+
 .panel .video_wrapper_outer {
   margin-bottom:20px !important;
 }
@@ -703,6 +697,33 @@ ul.aside-list li::before {
 .page-content ul li::before {
   top:10px;
 }
+
+
+.indicator {
+  display:none;
+}
+.tabs {
+  border-bottom: 6px solid #000;
+  margin-bottom: 20px;
+}
+.tabs .tab a {
+  font-family: robotoblack, sans-serif;
+  font-size:20px;
+  color: #000;
+  background: #eee;
+}
+.tabs .tab a:hover {
+  color: #000;
+  background: #ccc;
+}
+.tabs .tab a.active {
+  background: #000;
+  color: #fff;
+}
+.page-content ul li.tab::before {
+  display:none;
+}
+
 .page-content ul li strong,
 ul.aside-list li a:link,
 ul.aside-list li a:visited {

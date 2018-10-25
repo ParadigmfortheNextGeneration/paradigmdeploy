@@ -202,7 +202,6 @@ var initializeEvents = function() {
       });
     $('#menu_button').sidr({
         name: 'sidr_menu',
-        onOpen: social_open,
         side: 'left'
       });
     $('.sidr_close').click(function(){
